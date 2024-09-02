@@ -3467,8 +3467,8 @@ footer .row {
     border: none;
     width: 85px;
     height: 28px;
-    background: url("../images/logo-footer.png") no-repeat center;
-    background-size: 85px 28px;
+    background: url("../images/inverted_logo.png") no-repeat center;
+    background-size: 85px 85px;
     font: 0/0 a;
     text-shadow: none;
     color: transparent;
