@@ -832,8 +832,8 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-    background: #192558;
-    border-color: #192558;
+    background: #5a3875;
+    border-color: #5a3875;
     color: #FFFFFF;
 }
 
@@ -1246,13 +1246,13 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     line-height: 1.333;
     text-transform: uppercase;
     letter-spacing: .25rem;
-    color: #192558;
+    color: #5a3875;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .subhead--dark {
-    color: #000000;
+    color: #5a3875;
 }
 
 
@@ -1529,7 +1529,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-nav__list {
-    font-family: "montserrat-regular", sans-serif;
+    font-family: "montserrat-light", sans-serif;
     font-size: 1.8rem;
     margin: 3.6rem 0 3rem 0;
     padding: 0 0 1.8rem 0;
@@ -1658,7 +1658,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-menu-toggle.opaque {
-    background-color: #000000;
+    background-color: #48387b;
 }
 
 .header-menu-toggle.opaque .header-menu-text {
@@ -2259,8 +2259,8 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 .s-about {
-    /* padding-top: 16.2rem; */
-    /* padding-bottom: 9rem; */
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     background:linear-gradient(to bottom right, #a29bcb, #30006c);
     color: #010507;
     position: relative;
@@ -3191,7 +3191,7 @@ html.no-csstransitions .home-content__main {
     top: 0;
     bottom: 0;
     right: 0;
-    background-color: #121212;
+    background: linear-gradient(to bottom right, #a29bcb, #30006c);
 }
 
 .contact-secondary .contact-info {
@@ -3415,7 +3415,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 footer {
-    padding: 9rem 0 6rem;
+    padding: 0rem 0 6rem;
     font-family: "montserrat-light", sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -3589,7 +3589,7 @@ footer .row {
     width: 60px;
     line-height: 60px;
     text-align: center;
-    background: black;
+    background: #48387b;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
     text-transform: uppercase;
