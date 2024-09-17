@@ -5,14 +5,7 @@ body {
     color: #333;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #a29bcb, #30006c);
-}
-
-/* Container */
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    background:  #a29bcb;
 }
 
 /* Page Title */
@@ -23,26 +16,78 @@ body {
     margin-bottom: 40px;
 }
 
-/* Service Sections */
-.service-section {
-    background: linear-gradient(to bottom right, #30006c, #a29bcb);
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 30px;
-    padding: 20px;
+/* Services Section
+--------------------------------*/
+
+#services {
+  padding: 60px 0 60px 0;
 }
 
-.service-section h2 {
-    font-size: 1.8em;
-    color: #fff; /* Ensures the heading text is readable against the gradient */
-    margin-top: 0;
+#services .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 0 10px 40px 10px;
+  background: #fff;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
 }
 
-.service-section p {
-    font-size: 1em;
-    color: #ddd; /* Lightens the paragraph text for readability */
-    margin: 10px 0 0;
+#services .box:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
+
+#services .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#services .icon i {
+  font-size: 36px;
+  line-height: 1;
+}
+
+#services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+#services .title a {
+  color: #111;
+}
+
+#services .box:hover .title a {
+  color: #1bb1dc;
+}
+
+#services .description {
+  font-size: 14px;
+  line-height: 28px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.service-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px; /* Adjust the gap between boxes if needed */
+}
+
+.box {
+    width: calc(50% - 45px); /* Adjust for the gap, ensuring two boxes per row */
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+    margin-bottom: 30px; /* Space below each box */
+}
+
 
 /* Preloader */
 #preloader {
